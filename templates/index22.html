@@ -1,0 +1,26 @@
+
+
+<html>
+  <head>
+    <title>Video Streaming Demonstration</title>
+  </head>
+  <body>
+    <h1>Video Streaming Demonstration</h1>
+    {% for each_camera in cameras %}
+    <img src="/video_feed/{{each_camera}}">
+    {% endif %}
+    </form>
+   
+    <form method="POST" action="">
+      <input type="submit" name="pause" id="q" value="PAUSE"> PAUSE </button>
+    </form>
+    
+    
+      <br>
+      <form method="GET" action="">
+
+      <input type="submit" name="stop" id="p" value="STOP"> STOP </button>
+    <br>
+    </form>
+  </body>
+</html>
